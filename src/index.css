@@ -5,19 +5,45 @@
   justify-content: center;
   display: flex;
   padding: 90px 0px 90px 0px;
-  /* background-color: rgb(128, 128, 128); */
+  background-color:rgba(38, 210, 99, 0.612);
 }
 
 #sub-main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 550px;
+  height: 620px;
   width: 35%;
-  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+  box-shadow: 11px 12px 13px 12px rgb(1, 63, 19);
   padding-top: 30px;
   border-radius: 60px;
-  background-color: white;
+  /* background-color: rgb(53, 224, 78); */
+  /* background-image: 11.jpg; */
+
+  
+}
+
+#imag{
+  padding-top: 5px;
+  justify-content: center;
+  display: grid;
+}
+
+/* #sub-imag{
+  background-color: rgb(63, 69, 66);
+  border-radius: 120px;
+  align-items: center;
+  display: grid;
+  height: 115px;
+  width: 115px;
+
+
+} */
+
+.profile{
+  height: 100px;
+  width: 100px;
+  border-radius: 130px;
 }
 
 #fields{
@@ -25,10 +51,14 @@
 }
 
 input{
-  font-size: 50px;
+  font-size: 35px;
+  border-radius: 60px;
 }
 
 button{
-  font-size: 50px;
-  margin: 0px 20px 20px 0px;
+  font-size: 35px;
+  /* align-items: center; */
+  justify-content: center;
+  /* margin: 0px 100px 13px 30px; */
+  border-radius: 60px;
 }
